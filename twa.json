@@ -1,0 +1,58 @@
+{
+  "packageId": "com.xixibola.prime",
+  "host": "xixibola.vercel.app",
+  "name": "XIXIBOLA PRIME",
+  "launcherName": "XIXIBOLA",
+  "display": "standalone",
+  "themeColor": "#F59E0B",
+  "navigationColor": "#0A0A0A",
+  "navigationColorDark": "#0A0A0A",
+  "navigationDividerColor": "#F59E0B",
+  "navigationDividerColorDark": "#F59E0B",
+  "backgroundColor": "#0A0A0A",
+  "enableNotifications": false,
+  "startUrl": "/",
+  "iconUrl": "/icons/icon-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "xixibola"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Novo Jogo",
+      "shortName": "Jogar",
+      "description": "Iniciar uma nova partida",
+      "url": "/?action=new_game",
+      "icons": [
+        { "src": "/icons/icon-192x192.png", "sizes": "192x192" }
+      ]
+    }
+  ],
+  "generatorApp": "bubblewrap",
+  "webManifestUrl": "/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": false
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "/",
+  "minSdkVersion": 19,
+  "preferredOrientation": "portrait",
+  "displayMode": "standalone",
+  "handleLinks": "preferred",
+  "shareTarget": {},
+  "orientation": "portrait-primary"
+}
